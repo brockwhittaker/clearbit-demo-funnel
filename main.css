@@ -1,0 +1,45 @@
+body {
+  background: linear-gradient(135deg, #030e30, #13265e);
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  height: 100vh;
+}
+
+svg {
+  width: 100vw;
+  height: 60vw;
+}
+
+svg path {
+  fill: transparent;
+}
+
+
+svg text {
+  font-size: 24px;
+  font-weight: 600;
+  fill: #fff;
+  dominant-baseline: middle;
+  background: red;
+}
+
+.label-bg {
+  fill: #3b478080;
+  rx: 24;
+}
+
+.step-marker {
+  stroke: #3b478040;
+  stroke-width: 10px;
+  stroke-linecap: round;
+}
+
+.step-header-conversion {
+  font-size: 60px;
+}
+
+.step-header-name {
+  font-size: 24px;
+  opacity: 0.5;
+  fill: #798ffe;
+}
